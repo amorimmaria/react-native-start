@@ -1,21 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,reactnative
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,reactnative
-
-### react ###
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
-
-node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-sketch
+# Created by https://www.toptal.com/developers/gitignore/api/reactnative
+# Edit at https://www.toptal.com/developers/gitignore?templates=reactnative
 
 ### ReactNative ###
 # React Native Stack Base
@@ -100,6 +84,8 @@ Temporary Items
 
 ### ReactNative.Node Stack ###
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -129,6 +115,7 @@ coverage
 .grunt
 
 # Bower dependency directory (https://bower.io/)
+bower_components
 
 # node-waf configuration
 .lock-wscript
@@ -267,4 +254,4 @@ google-services.json
 # Android Profiling
 *.hprof
 
-# End of https://www.toptal.com/developers/gitignore/api/react,reactnative
+# End of https://www.toptal.com/developers/gitignore/api/reactnative
